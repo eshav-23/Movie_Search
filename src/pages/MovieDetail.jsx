@@ -4,7 +4,7 @@ import Loading from "../components/Loading";
 import ErrorMessage from "../components/ErrorMessage";
 import "../styles/MovieDetail.css";
 
-const API_URL = "http://www.omdbapi.com?apikey=b169cf0";
+const API_URL = "https://www.omdbapi.com?apikey=b169cf0";
 
 const MovieDetail = () => {
   const { id } = useParams();
